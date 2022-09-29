@@ -18,7 +18,7 @@
     margin-left: 0.5rem;
     flex: 1;
   }
-  &.checked {
+  .checked {
     svg {
       color: #22b8cf;
     }
@@ -28,7 +28,7 @@
     }
   }
 }
-.remover {
+.remove {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
@@ -37,8 +37,4 @@
   &:hover {
     color: #ff8787;
   }
-}
-
-& + & {
-  border-top: 1px solid #dee2e6;
 }
